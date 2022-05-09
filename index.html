@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<!-- FONT -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Josefin+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Frontend Mentor | Todo app</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style.css" />
+
+		<!-- SCRIPT -->
+		<!-- <script src="./script.js" defer></script> -->
+		<script src="./theme.js" defer></script>
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<main class="container">
+			<header class="header">
+				<h1 class="title">Todo</h1>
+				<button class="theme" onclick="setTheme()">
+					<span class="sr-only">Light Theme</span>
+				</button>
+			</header>
+			<form onsubmit="addTodo(event)" class="f-input">
+				<input
+					type="text"
+					class="todo-input"
+					id="todo-input"
+					maxlength="45"
+					placeholder="Create a new todo..."
+				/>
+				<input type="checkbox" class="check-input" />
+			</form>
+			<div class="todo-list-wrapper">
+				<ul class="todo-list"></ul>
+				<div class="todo-control">
+					<p class="counter"><span class="count">0</span> items left</p>
+					<ul class="control-menu">
+						<li>
+							<button
+								class="all-tasks active"
+								onclick="filterTodos('show-all')"
+							>
+								All
+							</button>
+						</li>
+						<li>
+							<button class="active-tasks" onclick="filterTodos('show-active')">
+								Active
+							</button>
+						</li>
+						<li>
+							<button class="done-tasks" onclick="filterTodos('show-done')">
+								Completed
+							</button>
+						</li>
+					</ul>
+					<button class="clear" onclick="clearDone()">Clear Completed</button>
+				</div>
+			</div>
+			<p class="desc">Drag and drop to reorder list</p>
+		</main>
+
+		<!-- Add dynamic number -->
+
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://github.com/plamspetkov">Plamen Petkov</a>.
+		</div>
+	</body>
+</html>
