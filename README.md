@@ -63,4 +63,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-Many thanks to [@mv8ang](https://github.com/mv8ang) who helped me out with setting up the Local Storage and for showing me hwo to write Javascript in more intuitive way. 
+Many thanks to [@mv8ang](https://github.com/mv8ang) who helped me out with setting up the Local Storage and for showing me how to write Javascript in more intuitive way. 
