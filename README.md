@@ -12,6 +12,7 @@ This is a solution to the [Todo app challenge on Frontend Mentor](https://www.fr
   - [Built with](#built-with)
   - [Continued development](#continued-development)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -59,3 +60,7 @@ Users should be able to:
 
 - Frontend Mentor - [@plamspetkov](https://www.frontendmentor.io/profile/plamspetkov)
 - LinkedIn - [plamenpetkov](https://www.linkedin.com/in/plamen-petkov-711178122)
+
+## Acknowledgments
+
+Many thanks to [@mv8ang](https://github.com/mv8ang) who helped me out with setting up the Local Storage and for showing me hwo to write Javascript in more intuitive way. 
