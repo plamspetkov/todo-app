@@ -58,4 +58,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@plamspetkov](https://www.frontendmentor.io/profile/plamspetkov)
-- LinkedIn - (https://www.linkedin.com/in/plamen-petkov-711178122)
+- LinkedIn - [@plamenpetkov](https://www.linkedin.com/in/plamen-petkov-711178122)
